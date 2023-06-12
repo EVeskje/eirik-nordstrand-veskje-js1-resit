@@ -22,7 +22,7 @@ function displayJokes(type) {
   jokesContainer.innerHTML = "";
 
   for (let i = 0; i < jokesToDisplay.length; i++) {
-    if (i === 20) break;
+    if (i === 30) break;
     const joke = jokesToDisplay[i];
     jokesContainer.innerHTML += `<div class="card"><div class="card-type">${joke.type}</div>
                                <div class="card-setup">${joke.setup}</div>
