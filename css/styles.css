@@ -118,50 +118,49 @@ a {
  border-radius: 20px;
 }
 
-
-/* Buttons */ 
+/* Buttons */
 
 .button-container {
-    display: grid;
-    justify-content: center;
-    grid-gap: 12px;
-   }
-   
-   .button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    background-color: #357fc0;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-   }
-   
-   .button:hover {
-    background-color: #357fc07b;
-    transition: 0.6s;
-   }
+ display: grid;
+ justify-content: center;
+ grid-gap: 12px;
+}
 
-   .punchline {
-    display: flex;
-    justify-content: center;
-    border: none;
-    font-size: 1rem;
-    color: black;
-    background-color: var(--bg-color);
-    text-decoration: none;
-    cursor: pointer;
-    margin-top: 20px;
-    padding: 1rem;
-    border-radius: 20px;
-   }
-   
-   .punchline:hover {
-    background-color: #aed3f59f;
-    transition: 0.9s;
-   }
+.button {
+ display: inline-block;
+ padding: 10px 20px;
+ font-size: 1rem;
+ font-weight: bold;
+ background-color: #357fc0;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ transition: background-color 0.3s ease;
+}
+
+.button:hover {
+ background-color: #357fc07b;
+ transition: 0.6s;
+}
+
+.punchline {
+ display: flex;
+ justify-content: center;
+ border: none;
+ font-size: 1rem;
+ color: black;
+ background-color: var(--bg-color);
+ text-decoration: none;
+ cursor: pointer;
+ margin-top: 20px;
+ padding: 1rem;
+ border-radius: 20px;
+}
+
+.punchline:hover {
+ background-color: #aed3f59f;
+ transition: 0.9s;
+}
 
 /* Footer */
 
