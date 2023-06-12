@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+  <meta name="description" content="Best jokes with Funny Fiesta" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/loader.css" rel="stylesheet" />
+  <title>Funny Fiesta</title>
+ </head>
+ <body>
+  <header>
+   <div class="home-title">
+    <div class="home-title_text">
+     <h1 class="h1-home">Welcome to Funny Fiesta!</h1>
+     <h2>Where Laughter Runs Wild</h2>
+    </div>
+   </div>
+   <div class="button-container">
+    <button class="button" onclick="displayJokes('programming')">
+     Programming jokes
+    </button>
+    <button class="button" onclick="displayJokes('general')">
+     General jokes
+    </button>
+   </div>
+  </header>
+  <main>
+   <div class="jokes-container">
+    <!-- <div class="loader"></div> -->
+    <div id="loader">
+     <div class="ls-particles ls-part-1"></div>
+     <div class="ls-particles ls-part-2"></div>
+     <div class="ls-particles ls-part-3"></div>
+     <div class="ls-particles ls-part-4"></div>
+     <div class="ls-particles ls-part-5"></div>
+     <div class="lightsaber ls-left ls-green"></div>
+     <div class="lightsaber ls-right ls-red"></div>
+    </div>
+    <div class="jokes"></div>
+   </div>
+  </main>
+  <footer class="footer">
+   <div class="footer-content">
+    <p class="footer-text">Funny Fiesta Time!</p>
+   </div>
+  </footer>
+  <script src="js/home.js"></script>
+ </body>
+</html>
