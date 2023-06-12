@@ -35,3 +35,18 @@ function getJokes(type) {
 
   return jokes;
 }
+
+function showLoader() {
+  favContainer.innerHTML = '<div class="loader"></div>';
+  discoverContainer.innerHTML = '<div class="loader"></div>';
+}
+
+function hideLoader() {
+  const loaders = document.querySelectorAll(".loader");
+  loaders.forEach((loader) => loader.remove());
+}
+
+window.addEventListener("DOMContentLoaded", () => {
+  showLoader();
+  fetchData().finally(hideLoader);
+});

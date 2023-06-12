@@ -186,7 +186,16 @@ a {
  margin: 0;
 }
 
-/* .loader {
+/* Loader */
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+ }
+
+.loader {
 border: 8px solid rgba(231, 228, 228, 0.1);
 border-left-color: #f1c40f;
 border-radius: 50%;
@@ -199,4 +208,4 @@ animation: spin 1s linear infinite;
 to {
 transform: rotate(360deg);
 }
-} */
+}
