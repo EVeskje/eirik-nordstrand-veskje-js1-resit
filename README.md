@@ -1,6 +1,7 @@
 <h1>Funny Fiesta - Javascript1 Resit</h1>
 
 <h2>Brief</h2>
+
 index.html:
 
 On the home page make a call to All entries endpoint to fetch a list of all the jokes and show the setup and
