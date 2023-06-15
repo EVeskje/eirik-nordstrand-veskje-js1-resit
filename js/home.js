@@ -37,8 +37,7 @@ function getJokes(type) {
 }
 
 function showLoader() {
-  favContainer.innerHTML = '<div class="loader"></div>';
-  discoverContainer.innerHTML = '<div class="loader"></div>';
+  jokesContainer.innerHTML = '<div class="loader"></div>';
 }
 
 function hideLoader() {
